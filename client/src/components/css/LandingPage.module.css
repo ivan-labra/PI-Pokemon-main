@@ -1,0 +1,43 @@
+.conteiner {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.conteiner p{
+    position: absolute;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 800;
+    top: 10%;
+    left:15%;
+    padding-bottom: 100px;
+    border-bottom: 3px solid black;
+    border-radius: 100%;
+    cursor: none;
+}
+
+.conteiner button{
+    position: absolute;
+    top: 65%;
+    left: 44.7%;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.11);
+    color: white;
+    font-weight: 800;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    z-index: 1;
+    box-shadow: inset 0 0 0 0 #000000;
+    
+}
+.conteiner button:hover{
+    box-shadow: inset 140px 0 0 0  #21c4a0c5;
+}
+
+.conteiner img{
+    height: 100vh;
+    width: 100%;
+}

@@ -1,9 +1,13 @@
 import './App.css';
+import Rutas from './routes/Rutas.js';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Henry Pokemon</h1>
+    <div>
+      <BrowserRouter>
+        <Rutas />
+      </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,12 @@
+.conteiner{
+    margin: auto;
+    width: 99%;
+    height: 830px;
+}
+
+.conteiner2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

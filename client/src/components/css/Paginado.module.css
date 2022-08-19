@@ -1,0 +1,19 @@
+
+.conteiner{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+
+
+.conteiner button{
+    background-color: rgba(240, 248, 255, 0.671);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+}

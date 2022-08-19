@@ -1,0 +1,83 @@
+.padre{
+    background-color: rgba(8, 58, 14, 0.801);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    
+}
+.volver{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.473);
+    margin-top: 25px;
+}
+
+.volver:hover{
+    outline: 1px solid rgba(255, 255, 255, 0.582);
+}
+
+.conteiner{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 1000px;
+    
+}
+
+
+.conteinerimg{
+
+    height: 450px;
+    width: 460px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.conteinerimg img{
+
+    width: 100%;
+    height: 100%;
+}
+.circle{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    background-color: rgb(47, 255, 58);
+    border-radius: 50%;
+    z-index: -1;
+    margin: 15% 11.5%;
+}
+
+.conteinerInf{
+
+    border-radius: 500px;
+    margin-left: 15px;
+    padding: 50px;
+    overflow: hidden;
+    color: white;
+    font-size: 18px;
+}
+
+
+.conteiner h4{
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 5px;
+}
